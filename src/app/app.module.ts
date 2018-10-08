@@ -20,6 +20,7 @@ import { JobDictionaryComponent } from './job-dictionary/job-dictionary.componen
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { ShortlistComponent } from './shortlist/shortlist.component';
 
 
 const appRoutes:Routes = [
@@ -55,7 +56,8 @@ const appRoutes:Routes = [
     JobDictionaryComponent,
     PrivacyPolicyComponent,
     TermsOfUseComponent,
-    ViewProfileComponent
+    ViewProfileComponent,
+    ShortlistComponent
   ],
   imports: [
     BrowserModule,
